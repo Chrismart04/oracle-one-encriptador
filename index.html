@@ -10,28 +10,32 @@
 
 <body>
     <header>
-        <img src="" alt="" class="logo">
+        <img src="./imagenes/Frame 6.png" alt="" class="logo">
     </header>
 
     <main>
-        <div class="text-box">
-            <textarea class="text-area" id="" cols="30" rows="10"></textarea>
-        </div>
-        <div>
-            <h6>solamente letras minusculas y sin acentos</h6>
-        </div>
-        <div class="botones">
-            <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
-            <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
-        </div>
-    </main>
+        <section>
+            <div class="text-box">
+                <textarea class="text-area" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <h6 class="informacion">solamente letras minusculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
 
-    <section>
-        <textarea class="resultado" id="" cols="30" rows="10"></textarea>
-        <div>
-            <button class="btn-copiar" onclick="copyText()">Copiar</button>
-        </div>
-    </section>
+
+
+        <section>
+            <textarea class="resultado" id="" cols="20" rows="10"></textarea>
+            <div>
+                <button class="btn-copiar" onclick="copyText()">Copiar</button>
+            </div>
+        </section>
+    </main>
     <script src="index.js"></script>
 </body>
 
